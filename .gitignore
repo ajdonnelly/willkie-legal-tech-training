@@ -1,0 +1,14 @@
+# Application documents — keep private, out of the public site repo
+*.docx
+*.pdf
+*.tmp
+.DS_Store
+qa-*.jpg
+qa-*.png
+_orig_*
+Prompt_Verify_Protect_for_Lawyers.m4a
+!Winston_RAI_Enablement_Playbook.pdf
+!PerkinsCoie_RAI_Module_Script.pdf
+!PerkinsCoie_RAI_Adoption_Tracker.xlsx
+!Chicago_AI_Pilot_Rollout.pdf
+Winston_RAI_Briefing.m4a
