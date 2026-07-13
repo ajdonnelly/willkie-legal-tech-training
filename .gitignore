@@ -1,12 +1,18 @@
-# Application documents — keep private, out of the public site repo
-*.docx
-*.pdf
-*.tmp
+# ─── Private application documents (never publish) ───
+# Name-based, NOT type-based: a blanket *.docx rule silently drops
+# deliverables the site links to. Keep the rule narrow and explicit.
+Donnelly_Alex_*
+*CoverLetter*
+*_Resume_*
+*Resume*.pdf
+*Resume*.docx
+
+# ─── Private working artifacts ───
+# (none)
+
+# ─── Junk ───
 .DS_Store
+*.tmp
 qa-*.jpg
 qa-*.png
 _orig_*
-
-# Public showcase deliverables — served by GitHub Pages
-!Willkie_LegalTech_Adoption_Tracker.xlsx
-!Willkie_AI_Enablement_Blueprint.pdf
